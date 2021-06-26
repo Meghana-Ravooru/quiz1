@@ -1,7 +1,7 @@
 body{
       padding:5px;
       margin:1%;
-     
+      background-image:url("bg1");
       
 }
 h1{
@@ -30,8 +30,9 @@ a:hover{
 }
 .column{
          float:left;
-         width:33.5%;
+         width:45.5%;
          padding:5px;
+         display: flex;
 }
 .row{
       display: flex;
@@ -44,4 +45,7 @@ a:hover{
 }
 block:hover{
           background:#ffffff;
+}
+.center{
+          align-items:center;
 }
